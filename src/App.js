@@ -59,7 +59,7 @@ function App() {
                 Responsive Design
               </h5>
               <p class="text-gray-700 text-base mb-4">
-                The goal of this assignment is for you to practice the workflow
+                The goal of this assignment is for me to practice the workflow
                 of redesigning a simple website. You should take away the skills
                 necessary to analyze and identify flaws in an existing
                 interface, create low-fidelity and high-fidelity prototypes for
@@ -101,9 +101,9 @@ function App() {
                 React Development
               </h5>
               <p class="text-gray-700 text-base mb-4">
-                This is your chance to develop an interactive interface, use
-                interface components, and tie the components to an internal data
-                state. Get even more comfortable with React by creating a
+                Developed an interactive interface, used
+                interface components, and tied the components to an internal data
+                state. I got even more comfortable with React by creating a
                 list-based interface! Basically, an interface for users to
                 select items out of a list, which then aggregates them.
               </p>
@@ -142,8 +142,8 @@ function App() {
                 Iterative Design
               </h5>
               <p class="text-gray-700 text-base mb-4">
-                You will be working in a group to design an interactive
-                interface for an emerging startup. Your group will go through
+                I worked in a group to design an interactive
+                interface for an emerging startup. My group went through
                 the full process of mocking up a solution to the startup's
                 concept.
               </p>
