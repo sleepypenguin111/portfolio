@@ -4,44 +4,245 @@ import Card from "./Card";
 
 function App() {
   return (
-    <div className="relative">
+    <div className="relative bg-slate-100 font-mono">
       {/* <div className="bg-fixed	px-24 bg-[url('../public/japan.png')] bg-no-repeat	"> */}
-      <video
+      {/* <video
         src={videoBg}
         autoPlay
         loop
         muted
-        className="absolute object-cover h-full w-full opacity-50 z-10"
-      ></video>
+        className="absolute object-cover h-full w-full opacity-30 bg-blue z-10"
+      ></video> */}
       <div className="z-30 relative">
         <div className="flex px-24">
-          <div className="w-4/12 pt-36 pl-36">
+          <div className="w-4/12 pt-24 pl-36">
             <img class="rounded-t-lg h-64" src="me.png" alt="" />
           </div>
           <div className="w-8/12">
-            <p className="pl-36 pr-24 pt-36 pb-12 text-6xl font-bold">
-              Hi! I am a junior studying computer science at Brown University!
+            <p className="pl-36 pr-24 pt-24 pb-12 text-6xl font-bold">
+              Hi! I am a student at Brown University!
             </p>
           </div>
         </div>
       </div>
 
       <div className="relative z-30">
-        <h1 className="text-center font-bold pb-10 text-4xl underline">
+        <h1 className="text-center pt-10 font-bold pb-10 text-4xl">
           About me
         </h1>
-        <p className="text-2xl text-center pb-10 px-24 font-semibold">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar
-          consequat imperdiet. Pellentesque pellentesque turpis nec nunc
-          accumsan, sed bibendum nibh molestie. Proin ac nisi tristique tortor
-          bibendum vestibulum vel at est. Integer vestibulum tristique eros ac
-          fringilla. Integer cursus, risus eu varius egestas, magna orci sodales
-          leo, semper posuere nibh lacus ut urna.
+        <p className="text-2xl text-center pb-10 px-24">
+          My name is Sleepy Penguin, who is currently a junior at Brown
+          University in Rhode Island! Before I moved to the U.S. I studied in
+          B.C., Canada for two years and before that, I was in Tokyo, Japan.
+          Outside CS, I have been enjoying to playing/watching soccer!
         </p>
       </div>
 
       <div className="relative z-30">
-        <h1 className="text-center font-bold pb-10 text-4xl underline">
+        <h1 className="text-center font-bold pb-10 text-4xl">
+          Projects
+        </h1>
+      </div>
+
+      <div className="z-30 relative flex flex-wrap justify-center">
+        <div class="flex justify-center px-10 pb-10 hover:scale-105">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <a
+              href="https://sleepypenguin111.github.io/responsive-design/"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+            >
+              <img class="rounded-t-lg h-64" src="responsive.png" alt="" />
+            </a>
+            <div class="p-6 text-center text-center">
+              <h5 class="text-center text-gray-900 text-xl font-medium mb-2">
+                Responsive Design
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                The goal of this assignment is for you to practice the workflow
+                of redesigning a simple website. You should take away the skills
+                necessary to analyze and identify flaws in an existing
+                interface, create low-fidelity and high-fidelity prototypes for
+                various screen sizes, and build a responsive website based on
+                those prototypes.
+              </p>
+              <div className="text-center">
+                <a href="https://github.com/sleepypenguin111/responsive-design">
+                  <button
+                    type="button"
+                    class="mr-4 content-center inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    Code
+                  </button>
+                </a>
+                <a href="https://sleepypenguin111.github.io/responsive-design/">
+                  <button
+                    type="button"
+                    class="content-center inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  >
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center px-10 pb-10 hover:scale-105">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <a
+              href="https://sleepypenguin111.github.io/development/"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+            >
+              <img class="rounded-t-lg h-64" src="development.png" alt="" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                React Development
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                This is your chance to develop an interactive interface, use
+                interface components, and tie the components to an internal data
+                state. Get even more comfortable with React by creating a
+                list-based interface! Basically, an interface for users to
+                select items out of a list, which then aggregates them.
+              </p>
+              <a href="https://github.com/sleepypenguin111/development">
+                <button
+                  type="button"
+                  class="mr-4 inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Code
+                </button>
+              </a>
+              <a href="https://sleepypenguin111.github.io/development/">
+                <button
+                  type="button"
+                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Demo
+                </button>
+              </a>
+
+              {/* https://sleepypenguin111.github.io/development/ */}
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center px-10 pb-10 hover:scale-105">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <a
+              href="https://www.figma.com/file/778BoUNWk3eF51pGPrQzEz/Airhart-Aeronautics?node-id=0%3A1&t=cuemtjxNbOxQb3Om-0"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+            >
+              <img class="rounded-t-lg h-64" src="iterative.png" alt="" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">
+                Iterative Design
+              </h5>
+              <p class="text-gray-700 text-base mb-4">
+                You will be working in a group to design an interactive
+                interface for an emerging startup. Your group will go through
+                the full process of mocking up a solution to the startup's
+                concept.
+              </p>
+              <a href="https://www.figma.com/file/778BoUNWk3eF51pGPrQzEz/Airhart-Aeronautics?node-id=0%3A1&t=9Df6OHq8vrdXH4h1-0">
+                <button
+                  type="button"
+                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center px-10 pb-10 hover:scale-105">
+          <div class="rounded-lg shadow-lg bg-white max-w-sm">
+            <a
+              href="https://demae-can.com/"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+            >
+              <img class="rounded-t-lg h-64" src="demae.png" alt="" />
+            </a>
+            <div class="p-6 text-center">
+              <h5 class="text-gray-900 text-xl font-medium mb-2">Demae</h5>
+              <p class="text-gray-700 text-base mb-4">
+                Renovated the company's existing web application written in PHP
+                by developing a new website with TypeScript in an Agile
+                environment with a team of 7.
+              </p>
+              <a href="https://demae-can.com/">
+                <button
+                  type="button"
+                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Demo
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative z-30">
+        <h1 className="text-center font-bold pb-10 text-4xl">
+          Skills
+        </h1>
+        <div className="flex justify-center mx-36 mb-10 flex-wrap">
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/java.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">java</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/js.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">JavaScript</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/typescript.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">TypeScript</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/c-.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">C/C++</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/python.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">Python</h2>
+          </div>
+          <div className="text-center shadow-lg px-10 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/react.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">React</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/graphql.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">GraphQL</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/html-5.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">HTML</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/css-3.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">CSS</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-18 w-24 pt-8 pb-2" src="img/Node.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">Node.js</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24" src="img/mongoDB.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">MongoDB</h2>
+          </div>
+          <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
+            <img className="h-24 w-24" src="img/go.png" alt="Not working" />
+            <h2 className="pt-8 pb-4 font-bold">Golang</h2>
+          </div>
+        </div>
+      </div>
+      <div className="relative z-30">
+        <h1 className="text-center font-bold pb-10 text-4xl">
           Social Media
         </h1>
       </div>
@@ -90,121 +291,6 @@ function App() {
             </g>
           </svg>
         </button>
-      </div>
-
-      <div className="relative z-30">
-        <h1 className="text-center font-bold pb-10 text-4xl underline">
-          Projects
-        </h1>
-      </div>
-
-      <div className="z-30 relative flex flex-wrap justify-center">
-        <div class="flex justify-center px-10 pb-10">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a
-              href="https://sleepypenguin111.github.io/responsive-design/"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            >
-              <img class="rounded-t-lg h-64" src="responsive.png" alt="" />
-            </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">
-                Responsive Design
-              </h5>
-              <p class="text-gray-700 text-base mb-4">
-                The goal of this assignment is for you to practice the workflow
-                of redesigning a simple website. You should take away the skills
-                necessary to analyze and identify flaws in an existing
-                interface, create low-fidelity and high-fidelity prototypes for
-                various screen sizes, and build a responsive website based on
-                those prototypes.
-              </p>
-              <button
-                type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Source Code
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-center px-10 pb-10">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a
-              href="https://sleepypenguin111.github.io/development/"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            >
-              <img class="rounded-t-lg h-64" src="development.png" alt="" />
-            </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">
-                React Development
-              </h5>
-              <p class="text-gray-700 text-base mb-4">
-                This is your chance to develop an interactive interface, use
-                interface components, and tie the components to an internal data
-                state. Get even more comfortable with React by creating a
-                list-based interface! Basically, an interface for users to
-                select items out of a list, which then aggregates them.
-              </p>
-              <button
-                type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Source Code
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-center px-10 pb-10">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a
-              href="https://www.figma.com/file/778BoUNWk3eF51pGPrQzEz/Airhart-Aeronautics?node-id=0%3A1&t=cuemtjxNbOxQb3Om-0"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            >
-              <img class="rounded-t-lg h-64" src="iterative.png" alt="" />
-            </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">
-                Iterative Design
-              </h5>
-              <p class="text-gray-700 text-base mb-4">
-                You will be working in a group to design an interactive
-                interface for an emerging startup. Your group will go through
-                the full process of mocking up a solution to the startup's
-                concept.
-              </p>
-              <button
-                type="button"
-                class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-              >
-                Demo
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-center px-10 pb-10">
-          <div class="rounded-lg shadow-lg bg-white max-w-sm">
-            <a
-              href="https://demae-can.com/"
-              data-mdb-ripple="true"
-              data-mdb-ripple-color="light"
-            >
-              <img class="rounded-t-lg h-64" src="demae.png" alt="" />
-            </a>
-            <div class="p-6">
-              <h5 class="text-gray-900 text-xl font-medium mb-2">Demae</h5>
-              <p class="text-gray-700 text-base mb-4">
-                Renovated the company's existing web application written in PHP
-                by developing a new website with TypeScript in an Agile
-                environment with a team of 7.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
