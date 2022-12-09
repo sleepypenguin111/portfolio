@@ -228,7 +228,7 @@ function App() {
             <h2 className="pt-8 pb-4 font-bold">CSS</h2>
           </div>
           <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
-            <img className="h-18 w-24 pt-8 pb-2" src="img/Node.png" alt="Not working" />
+            <img className="h-18 w-24 pt-8 pb-2" src="img/node.png" alt="Not working" />
             <h2 className="pt-8 pb-4 font-bold">Node.js</h2>
           </div>
           <div className="text-center shadow-lg px-12 py-4 m-2 bg-white rounded-lg">
