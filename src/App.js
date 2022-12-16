@@ -32,7 +32,7 @@ function App() {
           My name is Sleepy Penguin, who is currently a junior at Brown
           University in Rhode Island! Before I moved to the U.S. I studied in
           B.C., Canada for two years and before that, I was in Tokyo, Japan.
-          Outside CS, I have been enjoying to playing/watching soccer!
+          Outside CS, I have been enjoying to playing/watching soccer! Last but not least, I love <span className="text-4xl underline text-blue-500"><a href="https://www.youtube.com/watch?v=M7FP_skzGm8&ab_channel=neXtridge">dinosaurs</a></span>!!! (Ask me anything about it!)
         </p>
       </div>
 
@@ -55,7 +55,7 @@ function App() {
                 Responsive Design
               </h5>
               <p class="text-gray-700 text-base mb-4">
-                Redesigned the web design of 4chan using React JS and Tailwind CSS.
+                Redesigned the web design of 4chan using Figma, React JS and Tailwind CSS. Learned how to approach a redesigninig process.
               </p>
               <div className="text-center">
                 <a href="https://github.com/sleepypenguin111/responsive-design">
@@ -93,7 +93,7 @@ function App() {
               </h5>
               <p class="text-gray-700 text-base mb-4">
                 Built an interactive website for a mock dog store using React
-                JS.
+                JS. Applied knowledge about React state hooks and advanced javascript functions.
               </p>
               <a href="https://github.com/sleepypenguin111/development">
                 <button
@@ -157,7 +157,7 @@ function App() {
             <div class="p-6 text-center">
               <h5 class="text-gray-900 text-xl font-medium mb-2">Demae</h5>
               <p class="text-gray-700 text-base mb-4">
-                Renovated the company's existing web application using Next JS and Tailwind CSS.
+                As a software engineer intern, I renovated the company's existing web application using Next JS and Tailwind CSS.
               </p>
               <a href="https://demae-can.com/">
                 <button
